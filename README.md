@@ -1,0 +1,1 @@
+# L'esercizio prevede di ricreare il layout come da screenshot, cercando di essere il più fedeli possibile. Adottare tutte le soluzione conosciute finora (flex, position, etc.).
