@@ -139,6 +139,33 @@ header {
     width: 70%;
 }
 
+.container.navbar {
+    font-size: 12px;
+}
+
+.container.navbar .left .menu .lista, .right .menu .lista {
+    list-style: none;
+    display: flex;
+}
+
+.left .logo{
+    padding: 20px;
+}
+
+ul.lista > li {
+    padding: 10px;
+}
+
+.right {
+    padding-right: 15px;
+}
+
+button.blue {
+    color: white;
+    background-color: #0061ff;
+    border: none;
+    padding: 5px 10px;
+}
 /* #endregion HEADER  */
 
 
