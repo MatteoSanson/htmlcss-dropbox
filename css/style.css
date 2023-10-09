@@ -15,6 +15,7 @@
 
 .debug main {
     height: 500px;
+    margin-top: 25px;
 }
 
 .debug footer {
@@ -90,6 +91,19 @@
 }
 
 
+.debug main .container {
+    background-color: lightgoldenrodyellow;
+}
+
+
+.debug main .container.opzioni {
+    background-color: lightseagreen;
+    height: 200px;
+}
+
+.debug .container.opzioni > div {
+    border: 1px dashed black;
+}
 /* #endregion DEBUG  */
 
 
@@ -239,8 +253,23 @@ main {
 }
 
 main .container {
-    width: 50%;
-    
+    width: 50%; 
+}
+
+main .container ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+main .container.opzioni {
+    display: flex;
+    width: 100%;
+}
+
+.container.opzioni > div {
+    gap: 10px;
+    width: calc(100% / 3);
 }
 /* #endregion MAIN  */
 
