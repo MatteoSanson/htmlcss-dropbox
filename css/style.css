@@ -60,7 +60,7 @@
 }
 
 .debug .contenitore-jumbo-head {
-    height: 650px;
+    height: 700px;
     background-color: yellow;
 }
 
@@ -136,7 +136,7 @@ header {
 }
 
 .sottoti-nav > p, button, div {
-    gap: 30px;
+    gap: 40px;
 }
 
 .sottoti-img {
@@ -153,7 +153,7 @@ header {
 }
 
 .left .logo{
-    padding: 20px;
+    padding: 20px 0 20px 20px;
 }
 
 ul.lista > li {
@@ -186,9 +186,9 @@ p {
 
 .sottoti-img img {
     position: absolute;
-    width: 55%;
-    height: 55%;
-    left: 27vw;
+    width: 50%;
+    height: 50%;
+    left: 30vw;
 }
 
 button.blue.corto {
@@ -200,17 +200,21 @@ button.blue.corto {
     margin-bottom: 20px;
 }
 
+.freccina {
+    margin-top: 30px;
+}
+
 
 /* da togliere  */
-/* .jumbotron {
-    height: 835px;
+.jumbotron {
+    height: 861px;
     background-color: pink;
 }
 
 .jumbotron-foot {
-    height: 98px;
+    height: 140px;
     background: white;
-} */
+}
 /* da togliere  */
 
 
