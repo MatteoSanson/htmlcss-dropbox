@@ -6,23 +6,83 @@
 }
 /* #endregion RESET  */
 
+
+/* #region DEBUG  */
+.debug header {
+    background-color: red;
+    height: 900px;
+}
+
+.debug main {
+    height: 500px;
+}
+
+.debug footer {
+    background-color: yellow;
+    height: 500px;
+}
+
+.debug .navbar {
+    background-color: aqua;
+    height: 80px;
+}
+
+
+.debug .navbar .left{
+    border: 1px dashed black;
+}
+
+.debug .navbar .right{
+    border: 1px dashed black;
+}
+
+.debug .left > div {
+    border: 1px dashed yellow;
+}
+
+.debug .right > div, button {
+    border: 1px dashed yellow;
+}
+/* #endregion DEBUG  */
+
+
+
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 
 /* #region HEADER  */
+header {
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar .left, .navbar .right {
+   display: flex;
+   align-items: center;
+}
 
 /* #endregion HEADER  */
 
 
 
 /* #region MAIN  */
-
+main {
+   
+}
 /* #endregion MAIN  */
 
 
 
 /* #region FOOTER  */
+footer {
 
+}
 /* #endregion FOOTER  */
