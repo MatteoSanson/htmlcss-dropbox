@@ -60,7 +60,6 @@
 }
 
 .debug .contenitore-jumbo-head {
-    width: 80vw;
     height: 650px;
     background-color: yellow;
 }
@@ -76,13 +75,13 @@
 }
 
 .debug .sottoti-nav {
-    width: 40%;
+    width: 20%;
     background-color: lightsalmon;
 }
 
 .debug .sottoti-img {
     background-color: blueviolet;
-    width: 60%;
+    width: 80%;
     height: 500px;
 }
 
@@ -126,17 +125,22 @@ header {
 
 .sottotitolo {
     display: flex;
+    margin-top: 50px;
 }
 
 .sottoti-nav {
-    width: 30%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.sottoti-nav > p, button, div {
+    gap: 30px;
+}
+
 .sottoti-img {
-    width: 70%;
+    width: 80%;
 }
 
 .container.navbar {
@@ -166,13 +170,57 @@ button.blue {
     border: none;
     padding: 5px 10px;
 }
+
+.contenitore-jumbo-head {
+    width: 70vw;
+    margin-top: 100px;
+}
+
+.contenitore-jumbo-head h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.sottoti-img img {
+    position: absolute;
+    width: 55%;
+    height: 55%;
+    left: 27vw;
+}
+
+button.blue.corto {
+    width: 70%;
+}
+
+.fa-solid.fa-arrow-down {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* da togliere  */
+/* .jumbotron {
+    height: 835px;
+    background-color: pink;
+}
+
+.jumbotron-foot {
+    height: 98px;
+    background: white;
+} */
+/* da togliere  */
+
+
 /* #endregion HEADER  */
 
 
 
 /* #region MAIN  */
 main {
-   
+    /* height: 500px; */
 }
 /* #endregion MAIN  */
 
@@ -180,6 +228,7 @@ main {
 
 /* #region FOOTER  */
 footer {
-
+    /* background-color: yellow;
+    height: 500px; */
 }
 /* #endregion FOOTER  */
