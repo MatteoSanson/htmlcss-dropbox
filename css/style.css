@@ -76,15 +76,21 @@
 }
 
 .debug .sottoti-nav {
-    width: 425px;
+    width: 40%;
     background-color: lightsalmon;
 }
 
 .debug .sottoti-img {
     background-color: blueviolet;
-    width: calc(100% - 425px);
+    width: 60%;
     height: 500px;
 }
+
+.debug .sottoti-nav > div {
+    border: 1px dashed black;
+}
+
+
 /* #endregion DEBUG  */
 
 
@@ -121,6 +127,18 @@ header {
 .sottotitolo {
     display: flex;
 }
+
+.sottoti-nav {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sottoti-img {
+    width: 70%;
+}
+
 /* #endregion HEADER  */
 
 
