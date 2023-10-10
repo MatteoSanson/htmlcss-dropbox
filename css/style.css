@@ -115,6 +115,7 @@ button.blue {
 
 button.blue:hover {
     filter: brightness(1.5);
+    cursor: pointer;
 }
 
 .contenitore-jumbo-head {
@@ -272,7 +273,7 @@ hr {
     width: 60%;
 }
 
-.col-left > h6, h4, article{
+.col-left > h6, .col-left > h4, .col-left > article{
     padding: 10px;
 }
 
@@ -293,7 +294,7 @@ right: -35px; */
 /* +++++++++ da rivedere ++++++++  */
 }
 
-article, li {
+li > div, div > article {
     font-size: 12px;
 }
 
@@ -307,18 +308,18 @@ article, li {
 }
 
 .col-left.img {
-    width: 70%;
+    width: 65%;
 }
 
 .col-right.img {
-    width: 30%;
+    width: 35%;
 }
 
 .col-right.img {
     padding-top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 .col-left.img img {
@@ -327,13 +328,16 @@ article, li {
 
 button.chiaro {
     padding: 10px;
+    cursor: pointer;
     background-color: white;
     border: 1px solid black;
 }
 
-.bottone {
-    padding-left: 10px;
+button.chiaro:hover {
+    background-color: black;
+    color: white;
 }
+
 /* #endregion MAIN  */
 
 
