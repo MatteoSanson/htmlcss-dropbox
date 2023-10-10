@@ -279,12 +279,21 @@ hr {
     width: 60%;
 }
 
-.col-left > h6, .col-left > h4, .col-left > article{
+.col-left > h6, .col-left > h4{
     padding: 10px;
 }
 
-.col-left article {
+/* .col-left article {
     padding-top: 30px;
+} */
+
+.col-left > div {
+    padding:  10px;
+}
+
+.col-left div {
+    padding-top: 30px;
+    font-size: 12px;
 }
 
 .col-right {
@@ -366,8 +375,9 @@ button.chiaro:hover {
     max-width: 100%;
 }
 
-.sezione.griglia .contain article {
+.sezione.griglia .contain :nth-child(3) {
     margin-top: 15px;
+    font-size: 12px;
 }
 
 
