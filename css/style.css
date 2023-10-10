@@ -427,6 +427,37 @@ a {
     max-width: 100%;
 }
 
+main .mega-container:last-child{
+    background-color: #b4d0e7;
+}
+
+.contenitore-sotto-griglia {
+    display: flex;
+    background-color: #b4d0e7;
+    width: 50%;
+}
+
+.colonna-titolo, .colonna-tasto {
+    width: calc(100% / 2);
+    margin: 130px 0 130px 0;
+}
+
+.colonna-titolo h2 {
+    color: #61082b;
+    font-size: 35px;
+}
+
+
+.colonna-tasto {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.colonna-tasto button.button.chiaro {
+    border: none;
+    padding: 10px 30px 10px 30px;
+}
 /* #endregion MAIN  */
 
 
