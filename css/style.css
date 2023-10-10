@@ -114,8 +114,17 @@ body {
 
 
 /* #region HEADER  */
-header {
-    
+
+#main-header {
+    z-index: 1;
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    box-shadow: 0 0 2px 0 #dedede;
 }
 
 .navbar {
@@ -135,6 +144,7 @@ header {
 
 
 .jumbotron {
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -175,11 +185,17 @@ header {
 }
 
 .left .logo{
+    display: flex;
+    align-items: center;
     padding: 20px 0 20px 20px;
 }
 
 ul.lista > li {
-    padding: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.container.navbar .menu .lista >:hover {
+    border-bottom: 1px solid currentColor;
 }
 
 .right {
@@ -191,6 +207,10 @@ button.blue {
     background-color: #0061ff;
     border: none;
     padding: 5px 10px;
+}
+
+button.blue:hover {
+    filter: brightness(1.5);
 }
 
 .contenitore-jumbo-head {
@@ -228,15 +248,15 @@ button.blue.corto {
 
 
 /* da togliere  */
-.jumbotron {
-    height: 861px;
+/* .jumbotron {
+    height: 870px;
     background-color: pink;
 }
 
 .jumbotron-foot {
-    height: 140px;
+    height: 100px;
     background: white;
-}
+} */
 /* da togliere  */
 
 
@@ -250,7 +270,8 @@ main {
     justify-content: center;
 }
 
-main .container {
+main .container:first-child {
+    margin-top: 150px;
     width: 50%; 
 }
 
