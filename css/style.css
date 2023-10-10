@@ -363,6 +363,20 @@ button.chiaro:hover {
 .sezione.griglia .contain article {
     margin-top: 15px;
 }
+
+
+.contenitore .sezione h2 {
+    margin-top: 190px;
+}
+
+a {
+    font-size: 12px;
+}
+
+.special {
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
 /* #endregion MAIN  */
 
 
