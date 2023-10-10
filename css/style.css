@@ -238,7 +238,8 @@ p {
 }
 
 button.blue.corto {
-    width: 70%;
+    width: 100%;
+    padding: 10px 10px;
 }
 
 .fa-solid.fa-arrow-down {
@@ -358,6 +359,23 @@ li.prova {
 
 hr {
     width: 20%;
+}
+
+.contenitore.largo {
+    margin-top: 50px;
+    border: 1px solid lightgrey;
+}
+
+.contenitore.largo .sezione .titoletto-largo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 15px;
+}
+
+.fa-solid.fa-check {
+    color: #0061ff;
+    font-weight: 700;
 }
 /* #endregion MAIN  */
 
