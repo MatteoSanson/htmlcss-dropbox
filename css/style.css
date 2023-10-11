@@ -399,6 +399,7 @@ a {
     margin-bottom: 140px;
 }
 
+/* +++ container finale schermo largo con griglia +++ */
 .mega-container.finale {
     width: 100%;
     /* height: 640px;
@@ -424,16 +425,55 @@ a {
     padding: 0;
 }
 
-.quadrato .quadrato-piccolo {
+.quadrato.left .quadrato-piccolo, .quadrato.right .quadrato-piccolo {
     width: 50%;
     height: 50%;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.quadrato.leeft {
-
+.quadrato-piccolo img {
+    scale: 0.5;
+    filter: invert(1);
 }
 
+.quadrato-piccolo.verde{
+    background-color: #a2d39b;
+    border: 15px solid #d1e9cd;
+}
+
+.quadrato-piccolo.vino{
+    background-color: #61082b;
+}
+
+.quadrato-piccolo.azul{
+    background-color: #0093ce;
+}
+
+.quadrato-piccolo.rosso-acceso{
+    background-color: #ff1c1c;
+}
+
+.quadrato-piccolo.rosso{
+    background-color: #d5001f;
+}
+
+.quadrato-piccolo.azzurro{
+    background-color: #b4d0e7;
+}
+
+.quadrato-piccolo.blublu{
+    background-color: #0d2481;
+}
+
+.quadrato-piccolo.giallo{
+    background-color: #ffd830;
+}
+
+.quadrato.centrale {
+    background-color: #f5f5f5;
+}
 
 /* ++++ sezione titolo e bottone ++++  */
 main .mega-container:nth-child(3){
