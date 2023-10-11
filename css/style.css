@@ -215,8 +215,9 @@ main .container > ul {
 .container .sfera {
     width: 15px;
     height: 15px;
-    background-color: #0061ff;
+    background-color: white;
     border-radius: 50%;
+    border: 4px solid #0061ff;
     display: inline-block;
 }
 
@@ -239,9 +240,10 @@ main .container.opzioni .contenitore > div {
 }
 
 .contenitore .sezione .titoletto {
-    padding: 15px;
+    padding: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-bottom: 1px solid lightgrey;
     gap: 10px;
 }
@@ -252,6 +254,11 @@ main .container.opzioni .contenitore > div {
     padding: 15px;
     list-style: none;
     gap: 20px;
+}
+
+.sezione .contenuto h4 {
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 li.prova {
@@ -272,10 +279,6 @@ li.prova {
     margin: 40px 0 50px 0;
 }
 
-
-.sezione .contenuto li h5 {
-    padding-bottom: 30px;
-}
 
 .contenitore.largo {
     margin-top: 50px;
@@ -300,6 +303,7 @@ li.prova {
 .mini-container .col-left div {
     padding-top: 50px;
 }
+
 .col-left > h4{
     padding-top: 30px;
     padding-left: 10px;
@@ -368,6 +372,11 @@ button.chiaro {
 button.chiaro:hover {
     background-color: black;
     color: white;
+}
+
+main .contenuto li button.blue.corto {
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .col-right.img .bottone {
