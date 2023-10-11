@@ -257,13 +257,16 @@ main .container.opzioni .contenitore > div {
 }
 
 .sezione .contenuto h4 {
-    padding-top: 35px;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 li.prova {
     display: flex;
     gap: 10px;
+}
+
+li.spazio {
+    margin-bottom: 40px;
 }
 
 .sezione .contenuto ul li:nth-child(5){
@@ -375,7 +378,6 @@ button.chiaro:hover {
 }
 
 main .contenuto li button.blue.corto {
-    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -593,6 +595,69 @@ main .mega-container:nth-child(3){
 
 
 /* #region FOOTER  */
+footer {
+    background-color: black;
+    padding-top: 100px;
+    color: white;
+}
+
+footer .contain {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* ++++ menu head ++++  */
+.contain .menu-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
+}
+
+.contain .menu-head > {
+    width: calc(100% / 5);
+}
+
+.menu-head h4 {
+    margin-bottom: 30px;
+}
+
+.menu-head li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+footer hr {
+    width: 7%;
+    margin: 110px 0 50px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+
+/* ++++ menu foot ++++  */
+
+.menu-foot {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 50px;
+    font-size: 10px;
+}
+
+.fa-solid.fa-chevron-up {
+    font-size: 8px;
+}
+
+/* #endregion FOOTER  */
 footer {
     background-color: black;
     padding-top: 100px;
