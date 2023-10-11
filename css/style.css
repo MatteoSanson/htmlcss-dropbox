@@ -15,6 +15,7 @@ body {
 
 /* #region HEADER  */
 
+/* +++ navbar +++  */
 #main-header {
     z-index: 1;
     height: 80px;
@@ -41,8 +42,10 @@ body {
    display: flex;
    align-items: center;
 }
+/* +++ /navbar +++  */
 
 
+/* +++ jumbotron ++++  */
 .jumbotron {
     margin-top: 50px;
     width: 100%;
@@ -151,7 +154,7 @@ button.blue.corto {
 .freccina {
     margin-top: 30px;
 }
-
+/* +++ / jumbotron +++  */
 
 
 /* #endregion HEADER  */
@@ -437,6 +440,8 @@ a {
     max-width: 100%;
 }
 
+
+/* ++++ sezione titolo e bottone ++++  */
 main .mega-container:nth-child(3){
     background-color: #b4d0e7;
 }
@@ -468,6 +473,8 @@ main .mega-container:nth-child(3){
     border: none;
     padding: 10px 30px 10px 30px;
 }
+/* ++++ /sezione titolo e bottone ++++  */
+
 /* #endregion MAIN  */
 
 
