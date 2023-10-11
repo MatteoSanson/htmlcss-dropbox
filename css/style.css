@@ -15,9 +15,11 @@ body {
 p {
     line-height: 20px;
 }
+
+
 /* #region HEADER  */
 
-/* +++ navbar +++  */
+
 #main-header {
     z-index: 1;
     height: 80px;
@@ -43,11 +45,10 @@ p {
 .navbar .left, .navbar .right {
    display: flex;
    align-items: center;
+   gap: 15px;
 }
-/* +++ /navbar +++  */
 
 
-/* +++ jumbotron ++++  */
 .jumbotron {
     margin-top: 50px;
     width: 100%;
@@ -103,7 +104,12 @@ ul.lista > li {
     padding: 0 10px 0 10px;
 }
 
+.container.navbar .menu ul.lista li {
+    border-bottom: 1px solid transparent;
+}
+
 .container.navbar .menu .lista >:hover {
+
     border-bottom: 1px solid currentColor;
 }
 
